@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+    <TextView
+	    android:id="@+id/title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="#FFFFFF"
+	    android:textSize="23sp"
+	    android:singleLine="true"
+	    android:text="123ABCabc一二三"
+	    />
+     <TextView
+	    android:id="@+id/artist"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/title"
+	    android:layout_alignParentLeft="true"
+	    android:textSize="20sp"
+	    android:textColor="#FFFFFF"
+	    android:gravity="right"
+	    android:text="123ABCabc一二三"
+	    />
+	 <TextView
+	    android:id="@+id/duration"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/title"
+	    android:layout_toRightOf="@id/artist"
+	    android:layout_alignParentRight="true"
+	    android:textSize="15sp"
+ 		android:textColor="#FFFFFF"
+ 		android:gravity="right"
+	    android:text="123ABCabc一二三"
+	    />
+
+</RelativeLayout>
